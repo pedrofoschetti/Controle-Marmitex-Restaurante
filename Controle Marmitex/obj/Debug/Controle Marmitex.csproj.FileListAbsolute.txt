@@ -14,3 +14,17 @@ C:\Users\pedro\Desktop\Restaurante KiDelicia\Controle Marmitex\Controle Marmitex
 C:\Users\pedro\Desktop\Restaurante KiDelicia\Controle Marmitex\Controle Marmitex\bin\Debug\Bematech.xml
 C:\Users\pedro\Desktop\Restaurante KiDelicia\Controle Marmitex\Controle Marmitex\bin\Debug\Bematech.MiniImpressoras.xml
 C:\Users\pedro\Desktop\Restaurante KiDelicia\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.CopyComplete
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\bin\Debug\Controle Marmitex.exe.config
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\bin\Debug\Controle Marmitex.exe
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\bin\Debug\Controle Marmitex.pdb
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\bin\Debug\Bematech.xml
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\bin\Debug\Bematech.MiniImpressoras.xml
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.AssemblyReference.cache
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.SuggestedBindingRedirects.cache
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle_Marmitex.Form1.resources
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle_Marmitex.Properties.Resources.resources
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.GenerateResource.cache
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.CoreCompileInputs.cache
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.csproj.CopyComplete
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.exe
+C:\Users\T-GAMER\Desktop\Repositórios\Controle Marmitex\Controle Marmitex\obj\Debug\Controle Marmitex.pdb

@@ -72,6 +72,10 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.removerButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +83,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 13);
+            this.label1.Location = new System.Drawing.Point(31, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(298, 20);
             this.label1.TabIndex = 2;
@@ -133,12 +137,13 @@
             // 
             this.macarrao.AutoSize = true;
             this.macarrao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.macarrao.Location = new System.Drawing.Point(184, 162);
+            this.macarrao.Location = new System.Drawing.Point(189, 162);
             this.macarrao.Name = "macarrao";
             this.macarrao.Size = new System.Drawing.Size(103, 24);
             this.macarrao.TabIndex = 4;
             this.macarrao.Text = "Macarrão";
             this.macarrao.UseVisualStyleBackColor = true;
+            this.macarrao.CheckedChanged += new System.EventHandler(this.macarrao_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -201,29 +206,31 @@
             // 
             this.tutu.AutoSize = true;
             this.tutu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tutu.Location = new System.Drawing.Point(184, 132);
+            this.tutu.Location = new System.Drawing.Point(189, 132);
             this.tutu.Name = "tutu";
             this.tutu.Size = new System.Drawing.Size(64, 24);
             this.tutu.TabIndex = 2;
             this.tutu.Text = "Tutu";
             this.tutu.UseVisualStyleBackColor = true;
+            this.tutu.CheckedChanged += new System.EventHandler(this.tutu_CheckedChanged);
             // 
             // feijoada
             // 
             this.feijoada.AutoSize = true;
             this.feijoada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.feijoada.Location = new System.Drawing.Point(184, 102);
+            this.feijoada.Location = new System.Drawing.Point(189, 102);
             this.feijoada.Name = "feijoada";
             this.feijoada.Size = new System.Drawing.Size(97, 24);
             this.feijoada.TabIndex = 2;
             this.feijoada.Text = "Feijoada";
             this.feijoada.UseVisualStyleBackColor = true;
+            this.feijoada.CheckedChanged += new System.EventHandler(this.feijoada_CheckedChanged);
             // 
             // batatadocefrita
             // 
             this.batatadocefrita.AutoSize = true;
             this.batatadocefrita.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batatadocefrita.Location = new System.Drawing.Point(289, 162);
+            this.batatadocefrita.Location = new System.Drawing.Point(297, 162);
             this.batatadocefrita.Name = "batatadocefrita";
             this.batatadocefrita.Size = new System.Drawing.Size(163, 24);
             this.batatadocefrita.TabIndex = 5;
@@ -234,29 +241,31 @@
             // 
             this.batatatempassada.AutoSize = true;
             this.batatatempassada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batatatempassada.Location = new System.Drawing.Point(289, 132);
+            this.batatatempassada.Location = new System.Drawing.Point(297, 132);
             this.batatatempassada.Name = "batatatempassada";
             this.batatatempassada.Size = new System.Drawing.Size(236, 24);
             this.batatatempassada.TabIndex = 5;
             this.batatatempassada.Text = "Batata temperada assada";
             this.batatatempassada.UseVisualStyleBackColor = true;
+            this.batatatempassada.CheckedChanged += new System.EventHandler(this.batatatempassada_CheckedChanged);
             // 
             // macarronada
             // 
             this.macarronada.AutoSize = true;
             this.macarronada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.macarronada.Location = new System.Drawing.Point(289, 102);
+            this.macarronada.Location = new System.Drawing.Point(297, 102);
             this.macarronada.Name = "macarronada";
             this.macarronada.Size = new System.Drawing.Size(133, 24);
             this.macarronada.TabIndex = 4;
             this.macarronada.Text = "Macarronada";
             this.macarronada.UseVisualStyleBackColor = true;
+            this.macarronada.CheckedChanged += new System.EventHandler(this.macarronada_CheckedChanged);
             // 
             // bolinhodearroz
             // 
             this.bolinhodearroz.AutoSize = true;
             this.bolinhodearroz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bolinhodearroz.Location = new System.Drawing.Point(540, 162);
+            this.bolinhodearroz.Location = new System.Drawing.Point(545, 162);
             this.bolinhodearroz.Name = "bolinhodearroz";
             this.bolinhodearroz.Size = new System.Drawing.Size(159, 24);
             this.bolinhodearroz.TabIndex = 6;
@@ -267,7 +276,7 @@
             // 
             this.puredebatata.AutoSize = true;
             this.puredebatata.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.puredebatata.Location = new System.Drawing.Point(540, 132);
+            this.puredebatata.Location = new System.Drawing.Point(545, 132);
             this.puredebatata.Name = "puredebatata";
             this.puredebatata.Size = new System.Drawing.Size(147, 24);
             this.puredebatata.TabIndex = 5;
@@ -278,7 +287,7 @@
             // 
             this.batatacozida.AutoSize = true;
             this.batatacozida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batatacozida.Location = new System.Drawing.Point(540, 102);
+            this.batatacozida.Location = new System.Drawing.Point(545, 102);
             this.batatacozida.Name = "batatacozida";
             this.batatacozida.Size = new System.Drawing.Size(139, 24);
             this.batatacozida.TabIndex = 5;
@@ -289,7 +298,7 @@
             // 
             this.maionese.AutoSize = true;
             this.maionese.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maionese.Location = new System.Drawing.Point(708, 162);
+            this.maionese.Location = new System.Drawing.Point(713, 162);
             this.maionese.Name = "maionese";
             this.maionese.Size = new System.Drawing.Size(105, 24);
             this.maionese.TabIndex = 7;
@@ -300,7 +309,7 @@
             // 
             this.salpicao.AutoSize = true;
             this.salpicao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salpicao.Location = new System.Drawing.Point(708, 132);
+            this.salpicao.Location = new System.Drawing.Point(713, 132);
             this.salpicao.Name = "salpicao";
             this.salpicao.Size = new System.Drawing.Size(97, 24);
             this.salpicao.TabIndex = 3;
@@ -311,7 +320,7 @@
             // 
             this.farofa.AutoSize = true;
             this.farofa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.farofa.Location = new System.Drawing.Point(708, 102);
+            this.farofa.Location = new System.Drawing.Point(713, 102);
             this.farofa.Name = "farofa";
             this.farofa.Size = new System.Drawing.Size(81, 24);
             this.farofa.TabIndex = 7;
@@ -424,7 +433,7 @@
             // 
             // endereço
             // 
-            this.endereço.Location = new System.Drawing.Point(35, 647);
+            this.endereço.Location = new System.Drawing.Point(35, 665);
             this.endereço.Name = "endereço";
             this.endereço.Size = new System.Drawing.Size(727, 20);
             this.endereço.TabIndex = 8;
@@ -432,7 +441,7 @@
             // 
             // textnome
             // 
-            this.textnome.Location = new System.Drawing.Point(35, 599);
+            this.textnome.Location = new System.Drawing.Point(35, 617);
             this.textnome.Name = "textnome";
             this.textnome.Size = new System.Drawing.Size(235, 20);
             this.textnome.TabIndex = 8;
@@ -442,7 +451,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(35, 575);
+            this.label5.Location = new System.Drawing.Point(35, 593);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 20);
             this.label5.TabIndex = 9;
@@ -452,7 +461,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(32, 622);
+            this.label6.Location = new System.Drawing.Point(32, 640);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 20);
             this.label6.TabIndex = 9;
@@ -462,7 +471,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 672);
+            this.label7.Location = new System.Drawing.Point(32, 690);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(106, 20);
             this.label7.TabIndex = 11;
@@ -470,7 +479,7 @@
             // 
             // observ
             // 
-            this.observ.Location = new System.Drawing.Point(35, 696);
+            this.observ.Location = new System.Drawing.Point(35, 714);
             this.observ.Multiline = true;
             this.observ.Name = "observ";
             this.observ.Size = new System.Drawing.Size(727, 20);
@@ -485,10 +494,9 @@
             "Marmitex P",
             "Marmitex P c/ churrasco",
             "Marmitex G",
-            "Marmitex G,",
+            "Marmitex G - 14,00",
             "Marmitex G c/ churrasco",
-            "Porção de churrasco 100g",
-            "Porção de churrasco 50g",
+            "Porção de churrasco",
             "Refrigerante mini",
             "Refrigerante Lata",
             "Refrigerante 600ml",
@@ -511,7 +519,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(374, 376);
+            this.button1.Location = new System.Drawing.Point(374, 371);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 14;
@@ -527,7 +535,7 @@
             "Dinheiro",
             "Cartão",
             "PIX - PAGO!"});
-            this.comboBox2.Location = new System.Drawing.Point(293, 597);
+            this.comboBox2.Location = new System.Drawing.Point(293, 615);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(90, 23);
             this.comboBox2.TabIndex = 15;
@@ -538,7 +546,7 @@
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(35, 416);
+            this.listBox1.Location = new System.Drawing.Point(35, 406);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(778, 147);
             this.listBox1.TabIndex = 16;
@@ -546,7 +554,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(374, 724);
+            this.button2.Location = new System.Drawing.Point(374, 741);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 14;
@@ -558,19 +566,61 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(336, 38);
+            this.checkBox1.Location = new System.Drawing.Point(333, 41);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(192, 28);
             this.checkBox1.TabIndex = 17;
             this.checkBox1.Text = "Marmitex Completo";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // removerButton
+            // 
+            this.removerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removerButton.Location = new System.Drawing.Point(357, 559);
+            this.removerButton.Name = "removerButton";
+            this.removerButton.Size = new System.Drawing.Size(111, 38);
+            this.removerButton.TabIndex = 18;
+            this.removerButton.Text = "Remover item";
+            this.removerButton.UseVisualStyleBackColor = true;
+            this.removerButton.Click += new System.EventHandler(this.removerButton_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(360, 43);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(187, 20);
+            this.textBox1.TabIndex = 19;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(359, 24);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(203, 16);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "Digite a quantidade (em gramas)";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(359, 24);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(144, 16);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Digite qual o refrigente:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(852, 765);
+            this.ClientSize = new System.Drawing.Size(858, 776);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.removerButton);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox2);
@@ -668,6 +718,10 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button removerButton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
 
