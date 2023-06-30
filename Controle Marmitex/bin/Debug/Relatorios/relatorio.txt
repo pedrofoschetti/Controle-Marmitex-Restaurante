@@ -1,0 +1,8 @@
+Data: 23/06/2023 15:08:35
+Cliente: Pedro Foschetti
+Itens vendidos:
+1x - Marmitex P (Arroz, Feijão tropeiro, Feijão de caldo, Marmitex Completo) = R$ 12,00
+1x - Marmitex G (Arroz, Feijão de caldo) = R$ 17,00
+Endereço: Rua Fernando de Noronha, 1001, Planalto
+Pagamento: Dinheiro
+Valor final: R$ 17,00
