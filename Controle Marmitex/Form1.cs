@@ -139,7 +139,6 @@ namespace Controle_Marmitex
             }
             string reportFilePath = Path.Combine(reportsFolderPath, "relatorio.txt");
 
-
             try
             {
                 using (StreamWriter writer = new StreamWriter(reportFilePath, true))
@@ -153,12 +152,10 @@ namespace Controle_Marmitex
                     {
                         writer.WriteLine(item.ToString());
                     }
-
                     writer.WriteLine($"Endereço: {endereço1}");
                     writer.WriteLine($"Pagamento: {pag}");
                     writer.WriteLine($"Valor final: {totalprice:C2}");
                     writer.WriteLine("----------");
-
                     MessageBox.Show("Relatório salvo com sucesso!");
                 }
             }
